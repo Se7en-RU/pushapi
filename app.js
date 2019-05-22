@@ -50,8 +50,7 @@ if (
     }
 
     // get permission on subscribe only once
-    bt_
-        .on('click', function() {
+    bt_register.on('click', function() {
         getToken();
     });
 
